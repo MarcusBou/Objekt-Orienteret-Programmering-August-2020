@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Planets
 {
-    class SolarSystem : Planets
+    class SolarSystem
     {
         private List<Planets> planetsInSolarSystem = new List<Planets>();
         private List<Planets> meanTemperature = new List<Planets>();

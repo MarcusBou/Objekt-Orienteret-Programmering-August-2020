@@ -6,6 +6,8 @@ namespace Library
     {
         static void Main(string[] args)
         {
+            Gui GUI = new Gui();
+            GUI.main_GUI();
         }
     }
 }

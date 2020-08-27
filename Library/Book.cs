@@ -24,5 +24,14 @@ namespace Library
             author = authorOfBook;
             pages = pagesInBook;
         }
+
+        public override string ToString()
+        {
+            return "_______________________________________________" +
+                   "\n|Title Of The Book: " + booktitle + 
+                   "\n|Genre Of The Book: " + genre +
+                   "\n|Author Of The Book: " + author +
+                   "\n|Amount Of Pages: " + pages;
+        }
     }
 }
