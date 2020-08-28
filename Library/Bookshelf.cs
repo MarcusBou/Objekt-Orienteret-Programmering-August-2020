@@ -11,7 +11,11 @@ namespace Library
         public List<Book> BookShelf { get { return bookShelf; } }
 
         public GrabbedBooks grabBook = new GrabbedBooks();
-
+        
+        /// <summary>
+        /// Creates bookshelf with Some Certain Books, for startup that the user can loan
+        /// These will be Created when the constructor is called
+        /// </summary>
         public Bookshelf()
         {
             bookShelf.Add(new Book { Booktitle = "Harry Potter de vise sten", Genre = "Fiction", Author = "J.K Rowling", Pages = 303});
@@ -30,12 +34,12 @@ namespace Library
             {
                 if (book.Booktitle.Equals(bookTitle))
                 {
-                    grabBook.GrabBook(book);
-                    bookShelf.Remove(book);
-                    return string.Format("You have grabbed {0}", bookTitle);
+                    grabBook.GrabBook(book);//adds the grabbed book to your Book hand
+                    bookShelf.Remove(book);//Removes the Book From Bookshelf
+                    return string.Format("You have grabbed {0}", bookTitle);//Returns string Telling that book has been Removed
                 }
             }
-            return string.Format("{0} Doesnt Exist on the Bookshelf", bookTitle);
+            return string.Format("{0} Doesnt Exist on the Bookshelf", bookTitle);//Returns a string telling the book Doesnt exist, on the Bookshelf
         }
     }
 }

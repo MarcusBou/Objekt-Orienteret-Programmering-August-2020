@@ -17,7 +17,7 @@ namespace Library
 
         public Book() { }
 
-        public Book(string booksTitle, string genreForBook, string authorOfBook, int pagesInBook)
+        public Book(string booksTitle, string genreForBook, string authorOfBook, int pagesInBook) //Constructor Parametes that is needed to create a Book
         {
             booktitle = booksTitle;
             genre = genreForBook;
@@ -25,7 +25,7 @@ namespace Library
             pages = pagesInBook;
         }
 
-        public override string ToString()
+        public override string ToString()//When a Book is printed It will print like the string
         {
             return "_______________________________________________" +
                    "\n|Title Of The Book: " + booktitle + 

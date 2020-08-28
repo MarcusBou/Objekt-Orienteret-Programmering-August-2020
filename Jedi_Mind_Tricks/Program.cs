@@ -12,7 +12,6 @@ namespace Jedi_Mind_Tricks
         {
             Dictionary<string, int> people = new Dictionary<string, int>();
             people.Add("Marcus", 18);
-            people["Sebastian"] = new people();
         }
     }
 }
