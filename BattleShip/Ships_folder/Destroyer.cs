@@ -4,8 +4,8 @@ using System.Text;
 
 namespace BattleShip
 {
-    class Ships
+    class Destroyer: Ships
     {
-        private int shipLength;
+        
     }
 }

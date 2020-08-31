@@ -6,6 +6,6 @@ namespace BattleShip
 {
     class BattleGround
     {
-        
+        Ships[,] battleGround = new Ships[10, 10];
     }
 }
