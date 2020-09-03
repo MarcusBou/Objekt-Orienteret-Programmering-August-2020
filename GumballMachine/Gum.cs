@@ -9,5 +9,15 @@ namespace GumballMachine
     {
         private string color;
         private string taste;
+        
+        public string Color { get { return color; } set { color = value; } }
+        public string Taste { get { return taste; } set { taste = value; } }
+
+        public Gum() { }
+
+        public override string ToString()
+        {
+            return taste;
+        }
     }
 }
