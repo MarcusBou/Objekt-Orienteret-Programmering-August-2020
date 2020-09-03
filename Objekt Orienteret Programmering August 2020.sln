@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jedi_Mind_Tricks", "Jedi_Mind_Tricks\Jedi_Mind_Tricks.csproj", "{E7C3C9D7-A3E7-4BE7-9247-4C35EFE741F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{4F1E4963-5DE0-45AA-BDBB-389161B96FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Geometry\Geometry.csproj", "{4F1E4963-5DE0-45AA-BDBB-389161B96FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShip", "BattleShip\BattleShip.csproj", "{247B45C4-B51D-439C-9715-02F3F0882144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleShip", "BattleShip\BattleShip.csproj", "{247B45C4-B51D-439C-9715-02F3F0882144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumballMachine", "GumballMachine\GumballMachine.csproj", "{C2D89B97-4FB1-4025-A050-33694E9E88E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{247B45C4-B51D-439C-9715-02F3F0882144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{247B45C4-B51D-439C-9715-02F3F0882144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{247B45C4-B51D-439C-9715-02F3F0882144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D89B97-4FB1-4025-A050-33694E9E88E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D89B97-4FB1-4025-A050-33694E9E88E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D89B97-4FB1-4025-A050-33694E9E88E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D89B97-4FB1-4025-A050-33694E9E88E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
