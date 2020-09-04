@@ -19,6 +19,7 @@ namespace Geometry
             Console.WriteLine("Area for third square: " + square3.Area() + " | Circumferemnce for third square: " + square3.Circumference());
             Console.WriteLine("Area for fourth square: " + square4.Area() + " | Circumferemnce for fourth square: " + square4.Circumference());
 
+
             Console.Write("Set a Custom Value for a square: ");//input value for side length, to customSquare
             double.TryParse(Console.ReadLine(), out double a);
             customSquare.A = a;//sets the sidelength through a {Get; set;}
