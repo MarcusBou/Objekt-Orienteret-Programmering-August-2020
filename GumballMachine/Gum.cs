@@ -17,7 +17,7 @@ namespace GumballMachine
 
         public override string ToString()
         {
-            return taste;
+            return string.Format("{0}, Gumball with taste of {1} has been dispensed", Color, Taste);//shows what taste and color the gumball is
         }
     }
 }
